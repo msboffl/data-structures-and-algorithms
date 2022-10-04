@@ -1,3 +1,9 @@
+
+I) Introduction to linked list
+
+
+
+
 I) Introduction to linked list
 
 ● A linked list is a linear data structure where each element is a separate object.
@@ -16,7 +22,6 @@ contiguous memory locations.
 ● The last node of a linked list is known as tail.
 
 ● The last node has a reference to null.
-
 
 
 
@@ -51,12 +56,6 @@ list.
 
 
 
-
-
-
-
-
-
  There are generally three types of linked list:
 
 
@@ -71,9 +70,6 @@ but also to the previous pointer.
 ● Circular: There is no tail node i.e., the next field is never NULL and the next field for
 the last node points to the head node.
 
-
-
-
 III) Taking input in list: 
 
 
@@ -87,8 +83,4 @@ NULL.
 
 ● The current node’s next pointer should always point to the next node to connect the
 linked list.
-
-
-
-
 
