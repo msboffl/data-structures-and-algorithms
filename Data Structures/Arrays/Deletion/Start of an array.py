@@ -1,5 +1,5 @@
 class Solution:
-    def deleteAtEnd(self, arr):
+    def deleteAtStart(self, arr):
         length: int = 0
         for i in range(0, len(arr)):
             arr[length] = arr[i]
@@ -22,5 +22,5 @@ for _ in range(t):
     n = int(input("Enter no. of elements: "))
     arr = list(map(int, input('Enter the arr: ').split(' ')))
     Obj = Solution()
-    ans = Obj.deleteAtEnd(arr)
+    ans = Obj.deleteAtStart(arr)
     print(ans)
